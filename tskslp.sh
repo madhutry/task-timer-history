@@ -1,1 +1,2 @@
-sleep $1 && cvlc --loop 07055191.wav &
+watson stop
+sleep $1 && date && cvlc --loop $PWD/07055191.wav $2 
